@@ -1,3 +1,9 @@
+## ⚠️ Archive Notice
+
+Blacksmith now supports transparent caching as explained in https://www.blacksmith.sh/blog/cache. To this effect it is recommended to switch to the upstream maintained versions of this action as you will continue to leverage our much faster caching without any code changes. This action will no longer receive dependency or security updates.
+
+---
+
 # GitHub Action for GraalVM [![build-test](https://github.com/graalvm/setup-graalvm/actions/workflows/test.yml/badge.svg)](https://github.com/graalvm/setup-graalvm/actions/workflows/test.yml)
 This GitHub action sets up [Oracle GraalVM][graalvm-medium], GraalVM [Community Edition (CE)][repo], [Enterprise Edition (EE)][graalvm-ee], [Mandrel][mandrel], or [Liberica Native Image Kit][liberica] as well as [Native Image][native-image] and GraalVM components such as [Truffle languages][truffle-languages].
 
